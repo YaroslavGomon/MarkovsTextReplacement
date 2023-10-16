@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Алгоритм текстовых замен</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Вычисление с помощью текстовых замен по Марковской стратегии</h2>
+    <img src="./pic.png" alt="">
+    <p>сделано на коленке, валидации инпутов нет, поэтому не нужно лишних пробелов)</p>
+    <input class="string" type="text" placeholder="введите строку для подсчета вида <|>*<||> (вертикальная палка Pipe Key)">
+    <input class="variant" type="text" placeholder="введите приоритет операций вида 12345678">
+    <button class="start">Подсчитать</button>
+    <h3>Номер правила: результат замены</h3>
+    <div class="result"></div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
